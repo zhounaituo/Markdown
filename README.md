@@ -8,7 +8,8 @@
 >##### *如何* 使用它？
 >##### *什么地方* 可以使用它？
 
->**提示**：在github中编写时应当注意，`>`**每行末尾要加两个以上的空格**，用于区分行。`#`需要在后面加上一个**空格**才会生效。写参考式时，后一个`[]`**前**不能有空格。
+>**提示**：在github中编写时应当注意，`>`**每行末尾要加两个以上的空格**，用于换行，同样适用于段落中换行。`#`需要在后面加上一个**空格**才会生效。写参考式时，后一个`[]`**前**不能有空格。  
+不适合gihub的语法：**LaTex 公式**、**流程图**。
 ---------------------
 
 ## 正文
@@ -248,10 +249,13 @@ class SomeClass:
 
 ### LaTeX 公式
 
-可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：
+**提示**：该类使用于VS Code。参见[使用Markdown输出LaTex数学公式](https://www.jianshu.com/p/d9a5a1c694b4)。
 
-$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+可以创建行内公式，例如 $ \Gamma(n) = (n-1)!\quad\forall n\in\mathbb N $。或者块级公式：
 
+$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+> **提示:** 推荐了解 [莱斯大学LaTex Math在线PDF手册](https://www.caam.rice.edu/~heinken/latex/symbols.pdf)。
 ### 表格
 | Item      |    Value | Qty  |
 | :-------- | --------:| :--: |
@@ -260,16 +264,16 @@ $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 | Pipe      |    1 USD | 234  |
 
 ### 流程图
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
+``` flow
+st=> start: Start
+e=> end
+op=> operation: My Operation
+cond=> condition: Yes or No?
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+st-> op-> cond
+cond(yes)-> e
+cond(no)-> op
+ ```
 
 以及时序图:
 
