@@ -295,14 +295,15 @@ Bob-->Alice: I am good thanks!
 
 > **注意：**目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在**马克飞象**中修改 Markdown 原文才可生效。下个版本将会全面支持。
 *********
-## 资料参考
-
-+ [Markdown基本语法](https://github.com/younghz/Markdown)_作者：younghz
-+ [马克飞象](https://maxiang.io/#)
 
 ## 进阶
 
 Markdown作为一种`标记语言`，它同样支持用`HTML语言`。
+
+## 资料参考
+
++ [Markdown基本语法](https://github.com/younghz/Markdown)_作者：younghz
++ [马克飞象](https://maxiang.io/#)
 
 ***
   [3]: http://adrai.github.io/flowchart.js/
