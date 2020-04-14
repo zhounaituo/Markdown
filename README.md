@@ -300,8 +300,6 @@ Bob-->Alice: I am good thanks!
 + [Markdown基本语法](https://github.com/younghz/Markdown)_作者：younghz
 + [马克飞象](https://maxiang.io/#)
 
-----------------
-
 ## 进阶
 
 Markdown作为一种`标记语言`，它同样支持用`HTML语言`。
